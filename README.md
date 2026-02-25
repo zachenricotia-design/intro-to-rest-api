@@ -99,7 +99,7 @@ CREATE DATABASE your_db_name;
 ![locating database in pgadmin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/es32v1mxe3epzcj9rxrn.png)
 * Here is a sample query to create a table. Say you want to keep track of the records of the clients in a company:
 
-```
+```SQL
 CREATE TABLE client_records (
   id SERIAL PRIMARY KEY,
   username VARCHAR(100) NOT NULL,
