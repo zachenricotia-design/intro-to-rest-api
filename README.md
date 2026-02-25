@@ -97,10 +97,9 @@ CREATE DATABASE your_db_name;
   Look for your database and open the query tool.
   
 ![locating database in pgadmin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/es32v1mxe3epzcj9rxrn.png)
-
-
 * Here is a sample query to create a table. Say you want to keep track of the records of the clients in a company:
-  ```SQL
+
+```
 CREATE TABLE client_records (
   id SERIAL PRIMARY KEY,
   username VARCHAR(100) NOT NULL,
@@ -108,8 +107,7 @@ CREATE TABLE client_records (
   commission_status VARCHAR(50),
   deadline DATE
 );
-  ```
-
+```
 ![querying the database in pgadmin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5mn9g03pllkcsv5zc0t3.png)
 
 
