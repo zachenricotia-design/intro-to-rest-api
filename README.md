@@ -2,6 +2,11 @@
 
 Co-authored by: [Rhea Grace Catacutan](https://dev.to/catacutan_rhea)
 
+Clone this repo
+```bash
+git clone https://github.com/zachenricotia-design/intro-to-rest-api
+```
+
 ### Ever wonder how websites 'talk'?
 
 We know that databases store the information, but a REST API is the bridge that lets you actually move it. Here is how to build a simple API that creates, retrieves, and manages your data using Express, PostgreSQL, and Postman.
